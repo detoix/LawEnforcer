@@ -3,12 +3,19 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageVersion>0.0.1</PackageVersion>
     <NoPackageAnalysis>true</NoPackageAnalysis>
+    <PackageId>LawEnforcer</PackageId>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Title>LawEnforcer - Use attributes to enforce clean code</Title>
+    <Description>A set of convenieng attributes to ensure compliance with architectural rules at compile time.</Description>
+    <Authors>Krzysztof Deptula</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/detoix/LawEnforcer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/detoix/LawEnforcer.git</RepositoryUrl>
+    <NoPackageAnalysis>true</NoPackageAnalysis>
   </PropertyGroup>
-   
+
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="2.4.0" PrivateAssets="all" />
     <PackageReference Update="NETStandard.Library" PrivateAssets="all" />
